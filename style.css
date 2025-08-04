@@ -46,11 +46,18 @@ main {
 
 .book-card {
     background-color: #ffffff;
+    max-width: 800px;
+    padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-    padding: 20px;
     margin-bottom: 30px;
     transition: transform 0.2s;
+}
+
+.book-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 80px; 
 }
 
 .book-card:hover {
@@ -111,30 +118,6 @@ footer {
     transform: scale(1.05);
 }
 
-.writer-card {
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-    padding: 20px;
-    margin-bottom: 30px;
-    transition: transform 0.2s;
-}
-
-.writer-card:hover {
-    transform: scale(1.02);
-}
-
-.writer-card h2 {
-    font-size: 1.5rem;
-    color: #e2867f;
-    margin-bottom: 10px;
-}
-
-.writer-card p {
-    font-size: 1rem;
-    color: #555;
-}
-
 .libro {
     display: flex;
     justify-content: space-between;
@@ -152,57 +135,10 @@ footer {
 
 .imagenes {
     width: 100px;
-    height: auto;
+    height: 170px;
     margin-left: 1rem;
     border: 3px solid;
-    border-radius: 10px;
-}
-
-.perfil-editorial {
-    display: flex;
-    align-items: center;
-    background-color: white;
-    margin: 2rem;
-    padding: 1.5rem;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.1);
-}
-
-.foto_perfil {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-right: 2rem;
-    object-fit: cover;
-    border: 3px solid #ccc;
-}
-
-nav {
-    align-items: center;
-}
-
-.info-editorial h2 {
-    margin-top: 0;
-}
-
-.redes-sociales {
-    list-style: none;
-    padding: 0;
-    margin-top: 1rem;
-}
-
-.redes-sociales li {
-    margin-bottom: 0.5rem;
-}
-
-.redes-sociales a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-}
-
-.redes-sociales a:hover {
-    color: #0077cc;
+    border-radius: 8px;
 }
 
 .book-card, .writer-card {

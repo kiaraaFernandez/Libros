@@ -57,7 +57,7 @@ main {
 .book-content {
   display: flex;
   align-items: flex-start;
-  gap: 80px; 
+  gap: 20px; 
 }
 
 .book-card:hover {
@@ -75,18 +75,6 @@ main {
     color: #555;
 }
 
-.boton, button {
-    display: inline-block;
-    background-color: #e2867f;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 6px;
-    text-decoration: none;
-    font-weight: 600;
-    transition: all 0.3s ease;
-}
-
 .boton:hover, button:hover {
     background-color: #c25851;
     transform: scale(1.05);
@@ -101,7 +89,9 @@ footer {
 }
 
 .boton {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
     background-color: #c25851;
     color: white;
     padding: 6px 12px;

@@ -46,6 +46,8 @@ main {
 
 .book-card {
     background-color: #ffffff;
+    max-width: 800px;
+    padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     padding: 20px;
@@ -53,6 +55,12 @@ main {
     margin: 1rem auto;
     margin-bottom: 30px;
     transition: transform 0.2s;
+}
+
+.book-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px; 
 }
 
 .book-card:hover {
@@ -68,18 +76,6 @@ main {
 .book-card p {
     font-size: 1rem;
     color: #555;
-}
-
-.boton, button {
-    display: inline-block;
-    background-color: #e2867f;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 6px;
-    text-decoration: none;
-    font-weight: 600;
-    transition: all 0.3s ease;
 }
 
 .boton:hover, button:hover {
@@ -131,7 +127,7 @@ div {
 
 .imagenes {
     width: 100px;
-    height: 200px;
+    height: 180px;
     border: 3px solid;
     border-radius: 10px;
 }

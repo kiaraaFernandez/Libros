@@ -49,6 +49,8 @@ main {
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     padding: 20px;
+    width: 90%;
+    margin: 1rem auto;
     margin-bottom: 30px;
     transition: transform 0.2s;
 }
@@ -93,54 +95,32 @@ footer {
     margin-top: 40px;
 }
 
+div {
+    padding: 30px;
+}
+
 .boton {
-    display: inline-block;
+    margin-top: 15px;
     background-color: #c25851;
     color: white;
-    padding: 6px 12px;
-    font-size: 0.85rem;
-    border: none;
     border-radius: 4px;
+    font-weight: bold;
     text-decoration: none;
-    font-weight: 500;
-    transition: background-color 0.3s, transform 0.2s;
+    padding: 8px 14px;
     cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
 }
 
 .boton:hover {
     transform: scale(1.05);
 }
 
-.writer-card {
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-    padding: 20px;
-    margin-bottom: 30px;
-    transition: transform 0.2s;
-}
-
-.writer-card:hover {
-    transform: scale(1.02);
-}
-
-.writer-card h2 {
-    font-size: 1.5rem;
-    color: #e2867f;
-    margin-bottom: 10px;
-}
-
-.writer-card p {
-    font-size: 1rem;
-    color: #555;
-}
-
 .libro {
     display: flex;
-    align-items: center;
+    flex-direction: row;
     background-color: white;
-    padding: 2px;
-    margin-bottom: 2px;
+    padding: 10px;
+    margin-bottom: 10px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
@@ -151,60 +131,11 @@ footer {
 
 .imagenes {
     width: 100px;
-    height: auto;
-    margin-left: 1rem;
+    height: 200px;
     border: 3px solid;
     border-radius: 10px;
 }
 
-.perfil-editorial {
-    display: flex;
-    align-items: center;
-    background-color: white;
-    margin: 2rem;
-    padding: 1.5rem;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.1);
-}
-
-.foto_perfil {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-right: 2rem;
-    object-fit: cover;
-    border: 3px solid #ccc;
-}
-
 nav {
     align-items: center;
-}
-
-.info-editorial h2 {
-    margin-top: 0;
-}
-
-.redes-sociales {
-    list-style: none;
-    padding: 0;
-    margin-top: 1rem;
-}
-
-.redes-sociales li {
-    margin-bottom: 0.5rem;
-}
-
-.redes-sociales a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-}
-
-.redes-sociales a:hover {
-    color: #0077cc;
-}
-
-.book-card, .writer-card {
-    width: 90%;
-    margin: 1rem auto;
 }

@@ -92,18 +92,6 @@ footer {
     margin-top: 40px;
 }
 
-footer a {
-    color: #ffffff;
-    text-decoration: none;
-    margin: 10px;
-    font-weight: 500;
-    transition: color 0.3s;
-}
-
-footer a:hover {
-    color: #c51616;
-}
-
 div {
     padding: 30px;
 }
@@ -122,20 +110,6 @@ div {
 
 .boton:hover {
     transform: scale(1.05);
-}
-
-.libro {
-    display: flex;
-    flex-direction: row;
-    background-color: white;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-.info-libro {
-    max-width: 70%;
 }
 
 .imagenes {

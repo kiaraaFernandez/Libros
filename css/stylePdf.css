@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pdfview {
+    margin: auto;
+    display: block;
+    width: 850px;
+    height: 100vh;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+body {
+    background-color: #f5f7fa;
+    color: #2c3e50;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    place-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: x-large;
+    width: 1000px;
+    font-weight: 600;
+}
+
+div {
+    padding-top: 5%;
+}
+
+.texteContainer {
+    background: linear-gradient(135deg, #e2867f, #c25851);
+    border-radius: 20px;
+    margin: 5%;
+    padding: 2% 7% 2% 7%;
+}
+
+span {
+    opacity: 0.5;
+}
+
+.tituloPrincipal {
+    margin: 3% 0% 5% 0%;
+    background: linear-gradient(135deg, #e2867f, #c25851);
+    border-radius: 20px;
+    color: white;
+    padding: 2% 10% 1% 10%;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.producers {
+    background: linear-gradient(135deg, #ffffff, #ffe6e4);
+    border-radius: 20px;
+    color: #2c3e50;
+    margin-top: 5%;
+    padding: 2% 10% 2% 10%;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.active {
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1;
+    background: linear-gradient(to right, #d3d3ff 0%, #e4c7ff 33%, #ffd0e3 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
